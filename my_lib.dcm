@@ -1,0 +1,48 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +3.3V
+D Power symbol creates a global label with name "+3.3V"
+K power-flag
+$ENDCMP
+#
+$CMP +3V3
+D Power symbol creates a global label with name "+3V3"
+K power-flag
+$ENDCMP
+#
+$CMP C_Small
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP Conn_02x06_Top_Bottom
+D Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_02x20_Odd_Even
+D Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP GND
+D Power symbol creates a global label with name "GND" , ground
+K power-flag
+$ENDCMP
+#
+$CMP PWR_FLAG
+D Special symbol for telling ERC where power comes from
+K power-flag
+F ~
+$ENDCMP
+#
+$CMP SW_SPST
+D Single Pole Single Throw (SPST) switch
+K switch lever
+F ~
+$ENDCMP
+#
+#End Doc Library

@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:olimex-hx8k-pmod-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_02x20_Odd_Even J1
+L my_lib:Conn_02x20_Odd_Even J1
 U 1 1 5C93E121
 P 5525 3325
 F 0 "J1" H 5575 4442 50  0000 C CNN
@@ -45,7 +45,7 @@ Wire Wire Line
 Wire Wire Line
 	4725 2525 4725 2325
 $Comp
-L power:+3.3V #PWR0102
+L my_lib:+3.3V #PWR0102
 U 1 1 5C8148DD
 P 4725 2325
 F 0 "#PWR0102" H 4725 2175 50  0001 C CNN
@@ -65,7 +65,7 @@ Connection ~ 6125 2425
 Wire Wire Line
 	6125 2425 6175 2425
 $Comp
-L power:GND #PWR0103
+L my_lib:GND #PWR0103
 U 1 1 5C814A2B
 P 6175 2425
 F 0 "#PWR0103" H 6175 2175 50  0001 C CNN
@@ -120,7 +120,7 @@ Wire Wire Line
 Wire Wire Line
 	4975 2925 5325 2925
 $Comp
-L Connector_Generic:Conn_02x06_Top_Bottom J2
+L my_lib:Conn_02x06_Top_Bottom J2
 U 1 1 5D48AA25
 P 3275 2475
 F 0 "J2" H 3325 2892 50  0000 C CNN
@@ -131,7 +131,7 @@ F 3 "~" H 3275 2475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0104
+L my_lib:+3.3V #PWR0104
 U 1 1 5D48AA33
 P 3025 1875
 F 0 "#PWR0104" H 3025 1725 50  0001 C CNN
@@ -142,7 +142,7 @@ F 3 "" H 3025 1875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0105
+L my_lib:+3.3V #PWR0105
 U 1 1 5D48AA3D
 P 3625 1875
 F 0 "#PWR0105" H 3625 1725 50  0001 C CNN
@@ -153,7 +153,7 @@ F 3 "" H 3625 1875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0106
+L my_lib:GND #PWR0106
 U 1 1 5D48AA4B
 P 2675 2875
 F 0 "#PWR0106" H 2675 2625 50  0001 C CNN
@@ -164,7 +164,7 @@ F 3 "" H 2675 2875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0107
+L my_lib:GND #PWR0107
 U 1 1 5D48AA55
 P 3975 2875
 F 0 "#PWR0107" H 3975 2625 50  0001 C CNN
@@ -247,7 +247,7 @@ Wire Wire Line
 Wire Wire Line
 	3625 2775 3575 2775
 $Comp
-L Device:C_Small C1
+L my_lib:C_Small C1
 U 1 1 5D5272A4
 P 2875 2775
 F 0 "C1" V 2975 2725 50  0000 L CNN
@@ -270,7 +270,7 @@ Connection ~ 3025 2775
 Wire Wire Line
 	3025 2775 3075 2775
 $Comp
-L Connector_Generic:Conn_02x06_Top_Bottom J3
+L my_lib:Conn_02x06_Top_Bottom J3
 U 1 1 5D618DD9
 P 3275 4125
 F 0 "J3" H 3325 4542 50  0000 C CNN
@@ -281,7 +281,7 @@ F 3 "~" H 3275 4125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0108
+L my_lib:+3.3V #PWR0108
 U 1 1 5D618DE3
 P 3025 3525
 F 0 "#PWR0108" H 3025 3375 50  0001 C CNN
@@ -292,7 +292,7 @@ F 3 "" H 3025 3525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0109
+L my_lib:+3.3V #PWR0109
 U 1 1 5D618DED
 P 3625 3525
 F 0 "#PWR0109" H 3625 3375 50  0001 C CNN
@@ -303,7 +303,7 @@ F 3 "" H 3625 3525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0110
+L my_lib:GND #PWR0110
 U 1 1 5D618DF7
 P 2675 4525
 F 0 "#PWR0110" H 2675 4275 50  0001 C CNN
@@ -365,7 +365,7 @@ Wire Wire Line
 Wire Wire Line
 	3625 4425 3575 4425
 $Comp
-L Device:C_Small C2
+L my_lib:C_Small C2
 U 1 1 5D618E21
 P 2875 4425
 F 0 "C2" V 2975 4375 50  0000 L CNN
@@ -454,7 +454,7 @@ Wire Wire Line
 Wire Wire Line
 	5825 4225 6225 4225
 $Comp
-L Switch:SW_SPST SW1
+L my_lib:SW_SPST SW1
 U 1 1 5D6C7585
 P 4700 4325
 F 0 "SW1" H 4700 4560 50  0000 C CNN
@@ -467,7 +467,7 @@ $EndComp
 Wire Wire Line
 	4900 4325 5325 4325
 $Comp
-L Switch:SW_SPST SW2
+L my_lib:SW_SPST SW2
 U 1 1 5D6D5B83
 P 6475 4325
 F 0 "SW2" H 6475 4560 50  0000 C CNN
@@ -484,7 +484,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 4325 4500 4550
 $Comp
-L power:GND #PWR01
+L my_lib:GND #PWR01
 U 1 1 5D6E4F2A
 P 4500 4550
 F 0 "#PWR01" H 4500 4300 50  0001 C CNN
@@ -495,7 +495,7 @@ F 3 "" H 4500 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR02
+L my_lib:GND #PWR02
 U 1 1 5D6E5DC3
 P 6675 4575
 F 0 "#PWR02" H 6675 4325 50  0001 C CNN
@@ -506,7 +506,7 @@ F 3 "" H 6675 4575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x06_Top_Bottom J4
+L my_lib:Conn_02x06_Top_Bottom J4
 U 1 1 5D6E7EF8
 P 7525 2475
 F 0 "J4" H 7575 2892 50  0000 C CNN
@@ -517,7 +517,7 @@ F 3 "~" H 7525 2475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR05
+L my_lib:+3.3V #PWR05
 U 1 1 5D6E7F02
 P 7275 1875
 F 0 "#PWR05" H 7275 1725 50  0001 C CNN
@@ -528,7 +528,7 @@ F 3 "" H 7275 1875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR07
+L my_lib:+3.3V #PWR07
 U 1 1 5D6E7F0C
 P 7875 1875
 F 0 "#PWR07" H 7875 1725 50  0001 C CNN
@@ -539,7 +539,7 @@ F 3 "" H 7875 1875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR03
+L my_lib:GND #PWR03
 U 1 1 5D6E7F16
 P 6925 2875
 F 0 "#PWR03" H 6925 2625 50  0001 C CNN
@@ -550,7 +550,7 @@ F 3 "" H 6925 2875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR09
+L my_lib:GND #PWR09
 U 1 1 5D6E7F20
 P 8225 2875
 F 0 "#PWR09" H 8225 2625 50  0001 C CNN
@@ -603,7 +603,7 @@ Wire Wire Line
 Wire Wire Line
 	7875 2775 7825 2775
 $Comp
-L Device:C_Small C3
+L my_lib:C_Small C3
 U 1 1 5D6E7F3F
 P 7125 2775
 F 0 "C3" V 7225 2725 50  0000 L CNN
@@ -628,7 +628,7 @@ Wire Wire Line
 Text Label 8225 2575 2    50   ~ 0
 PMOD2_8
 $Comp
-L Connector_Generic:Conn_02x06_Top_Bottom J5
+L my_lib:Conn_02x06_Top_Bottom J5
 U 1 1 5D6F2F93
 P 7575 4125
 F 0 "J5" H 7625 4542 50  0000 C CNN
@@ -639,7 +639,7 @@ F 3 "~" H 7575 4125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR06
+L my_lib:+3.3V #PWR06
 U 1 1 5D6F2F9D
 P 7325 3525
 F 0 "#PWR06" H 7325 3375 50  0001 C CNN
@@ -650,7 +650,7 @@ F 3 "" H 7325 3525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR08
+L my_lib:+3.3V #PWR08
 U 1 1 5D6F2FA7
 P 7925 3525
 F 0 "#PWR08" H 7925 3375 50  0001 C CNN
@@ -661,7 +661,7 @@ F 3 "" H 7925 3525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR04
+L my_lib:GND #PWR04
 U 1 1 5D6F2FB1
 P 6975 4525
 F 0 "#PWR04" H 6975 4275 50  0001 C CNN
@@ -672,7 +672,7 @@ F 3 "" H 6975 4525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR010
+L my_lib:GND #PWR010
 U 1 1 5D6F2FBB
 P 8275 4525
 F 0 "#PWR010" H 8275 4275 50  0001 C CNN
@@ -725,7 +725,7 @@ Wire Wire Line
 Wire Wire Line
 	7925 4425 7875 4425
 $Comp
-L Device:C_Small C4
+L my_lib:C_Small C4
 U 1 1 5D6F2FDA
 P 7175 4425
 F 0 "C4" V 7275 4375 50  0000 L CNN
@@ -756,7 +756,7 @@ Wire Wire Line
 Wire Wire Line
 	4975 3925 5325 3925
 $Comp
-L power:PWR_FLAG #FLG0101
+L my_lib:PWR_FLAG #FLG0101
 U 1 1 5D721DCD
 P 2575 1775
 F 0 "#FLG0101" H 2575 1850 50  0001 C CNN
@@ -774,7 +774,7 @@ Connection ~ 3025 1925
 Wire Wire Line
 	3025 1925 3025 2775
 $Comp
-L power:PWR_FLAG #FLG0102
+L my_lib:PWR_FLAG #FLG0102
 U 1 1 5D753869
 P 5175 2025
 F 0 "#FLG0102" H 5175 2100 50  0001 C CNN
@@ -790,7 +790,7 @@ Connection ~ 5175 2425
 Wire Wire Line
 	5175 2425 4975 2425
 $Comp
-L power:PWR_FLAG #FLG0103
+L my_lib:PWR_FLAG #FLG0103
 U 1 1 5D762571
 P 2150 2750
 F 0 "#FLG0103" H 2150 2825 50  0001 C CNN
