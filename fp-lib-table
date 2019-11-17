@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name pkl_connectors)(type KiCad)(uri /home/ironsteel/kicad/icebreaker/lib/pkl/pkl_connectors.pretty)(options "")(descr ""))
+  (lib (name olimex-hx8k-pmod)(type KiCad)(uri ${KIPRJMOD}/olimex-hx8k-pmod.pretty)(options "")(descr ""))
+)

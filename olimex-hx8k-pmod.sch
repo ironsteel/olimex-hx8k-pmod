@@ -20,7 +20,7 @@ U 1 1 5C93E121
 P 5525 3325
 F 0 "J1" H 5575 4442 50  0000 C CNN
 F 1 "Conn_02x20_Odd_Even_FPGA" H 5575 4351 50  0000 C CNN
-F 2 "" H 5525 3325 50  0001 C CNN
+F 2 "olimex-hx8k-pmod:GPCB127SMT-02X20(YA-V36P-2X20-LF)" H 5525 3325 50  0001 C CNN
 F 3 "~" H 5525 3325 50  0001 C CNN
 	1    5525 3325
 	1    0    0    -1  
@@ -125,7 +125,7 @@ U 1 1 5D48AA25
 P 3275 2475
 F 0 "J2" H 3325 2892 50  0000 C CNN
 F 1 "PMOD" H 3325 2801 50  0000 C CNN
-F 2 "" H 3275 2475 50  0001 C CNN
+F 2 "olimex-hx8k-pmod:PinSocket_2x06_P2.54mm_Horizontal" H 3275 2475 50  0001 C CNN
 F 3 "~" H 3275 2475 50  0001 C CNN
 	1    3275 2475
 	1    0    0    -1  
@@ -182,13 +182,13 @@ Wire Wire Line
 	3075 2475 2675 2475
 Wire Wire Line
 	3075 2575 2675 2575
-Text Label 2675 2275 0    50   ~ 0
+Text Label 2675 2575 0    50   ~ 0
 PMOD0_1
-Text Label 2675 2375 0    50   ~ 0
+Text Label 3975 2575 2    50   ~ 0
 PMOD0_2
 Text Label 2675 2475 0    50   ~ 0
 PMOD0_3
-Text Label 2675 2575 0    50   ~ 0
+Text Label 3975 2475 2    50   ~ 0
 PMOD0_4
 Text Label 4975 3525 0    50   ~ 0
 PMOD1_1
@@ -220,13 +220,13 @@ Wire Wire Line
 	4975 4125 5325 4125
 Wire Wire Line
 	5325 4225 4975 4225
-Text Label 3975 2575 2    50   ~ 0
+Text Label 3975 2275 2    50   ~ 0
 PMOD0_8
-Text Label 3975 2475 2    50   ~ 0
+Text Label 2675 2275 0    50   ~ 0
 PMOD0_7
 Text Label 3975 2375 2    50   ~ 0
 PMOD0_6
-Text Label 3975 2275 2    50   ~ 0
+Text Label 2675 2375 0    50   ~ 0
 PMOD0_5
 Wire Wire Line
 	3575 2275 3975 2275
@@ -252,7 +252,7 @@ U 1 1 5D5272A4
 P 2875 2775
 F 0 "C1" V 2975 2725 50  0000 L CNN
 F 1 "10n" V 3050 2700 50  0000 L CNN
-F 2 "" H 2875 2775 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2875 2775 50  0001 C CNN
 F 3 "~" H 2875 2775 50  0001 C CNN
 	1    2875 2775
 	0    1    1    0   
@@ -275,7 +275,7 @@ U 1 1 5D618DD9
 P 3275 4125
 F 0 "J3" H 3325 4542 50  0000 C CNN
 F 1 "PMOD" H 3325 4451 50  0000 C CNN
-F 2 "" H 3275 4125 50  0001 C CNN
+F 2 "olimex-hx8k-pmod:PinSocket_2x06_P2.54mm_Horizontal" H 3275 4125 50  0001 C CNN
 F 3 "~" H 3275 4125 50  0001 C CNN
 	1    3275 4125
 	1    0    0    -1  
@@ -332,19 +332,19 @@ Wire Wire Line
 	3075 4125 2675 4125
 Wire Wire Line
 	3075 4225 2675 4225
-Text Label 2675 3925 0    50   ~ 0
+Text Label 2675 4225 0    50   ~ 0
 PMOD1_1
-Text Label 2675 4025 0    50   ~ 0
+Text Label 3975 4225 2    50   ~ 0
 PMOD1_2
 Text Label 2675 4125 0    50   ~ 0
 PMOD1_3
-Text Label 2675 4225 0    50   ~ 0
-PMOD1_4
 Text Label 3975 4125 2    50   ~ 0
+PMOD1_4
+Text Label 2675 3925 0    50   ~ 0
 PMOD1_7
 Text Label 3975 4025 2    50   ~ 0
 PMOD1_6
-Text Label 3975 3925 2    50   ~ 0
+Text Label 2675 4025 0    50   ~ 0
 PMOD1_5
 Wire Wire Line
 	3575 4025 3975 4025
@@ -370,7 +370,7 @@ U 1 1 5D618E21
 P 2875 4425
 F 0 "C2" V 2975 4375 50  0000 L CNN
 F 1 "10n" V 3050 4350 50  0000 L CNN
-F 2 "" H 2875 4425 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2875 4425 50  0001 C CNN
 F 3 "~" H 2875 4425 50  0001 C CNN
 	1    2875 4425
 	0    1    1    0   
@@ -389,7 +389,7 @@ Wire Wire Line
 	3025 4425 3075 4425
 Wire Wire Line
 	2675 2675 2675 2875
-Text Label 3975 4225 2    50   ~ 0
+Text Label 3975 3925 2    50   ~ 0
 PMOD1_8
 Text Label 6225 2725 2    50   ~ 0
 PMOD2_1
@@ -459,7 +459,7 @@ U 1 1 5D6C7585
 P 4700 4325
 F 0 "SW1" H 4700 4560 50  0000 C CNN
 F 1 "SW_SPST" H 4700 4469 50  0000 C CNN
-F 2 "" H 4700 4325 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 4700 4325 50  0001 C CNN
 F 3 "~" H 4700 4325 50  0001 C CNN
 	1    4700 4325
 	1    0    0    -1  
@@ -472,7 +472,7 @@ U 1 1 5D6D5B83
 P 6475 4325
 F 0 "SW2" H 6475 4560 50  0000 C CNN
 F 1 "SW_SPST" H 6475 4469 50  0000 C CNN
-F 2 "" H 6475 4325 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 6475 4325 50  0001 C CNN
 F 3 "~" H 6475 4325 50  0001 C CNN
 	1    6475 4325
 	1    0    0    -1  
@@ -511,7 +511,7 @@ U 1 1 5D6E7EF8
 P 7525 2475
 F 0 "J4" H 7575 2892 50  0000 C CNN
 F 1 "PMOD" H 7575 2801 50  0000 C CNN
-F 2 "" H 7525 2475 50  0001 C CNN
+F 2 "olimex-hx8k-pmod:PinSocket_2x06_P2.54mm_Horizontal" H 7525 2475 50  0001 C CNN
 F 3 "~" H 7525 2475 50  0001 C CNN
 	1    7525 2475
 	1    0    0    -1  
@@ -570,17 +570,17 @@ Wire Wire Line
 	7325 2575 6925 2575
 Text Label 6925 2275 0    50   ~ 0
 PMOD2_1
-Text Label 6925 2375 0    50   ~ 0
-PMOD2_2
-Text Label 6925 2475 0    50   ~ 0
-PMOD2_3
-Text Label 6925 2575 0    50   ~ 0
-PMOD2_4
-Text Label 8225 2475 2    50   ~ 0
-PMOD2_7
-Text Label 8225 2375 2    50   ~ 0
-PMOD2_6
 Text Label 8225 2275 2    50   ~ 0
+PMOD2_2
+Text Label 6925 2375 0    50   ~ 0
+PMOD2_3
+Text Label 8225 2375 2    50   ~ 0
+PMOD2_4
+Text Label 6925 2575 0    50   ~ 0
+PMOD2_7
+Text Label 8225 2475 2    50   ~ 0
+PMOD2_6
+Text Label 6925 2475 0    50   ~ 0
 PMOD2_5
 Wire Wire Line
 	7825 2275 8225 2275
@@ -608,7 +608,7 @@ U 1 1 5D6E7F3F
 P 7125 2775
 F 0 "C3" V 7225 2725 50  0000 L CNN
 F 1 "10n" V 7300 2700 50  0000 L CNN
-F 2 "" H 7125 2775 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7125 2775 50  0001 C CNN
 F 3 "~" H 7125 2775 50  0001 C CNN
 	1    7125 2775
 	0    1    1    0   
@@ -633,7 +633,7 @@ U 1 1 5D6F2F93
 P 7575 4125
 F 0 "J5" H 7625 4542 50  0000 C CNN
 F 1 "PMOD" H 7625 4451 50  0000 C CNN
-F 2 "" H 7575 4125 50  0001 C CNN
+F 2 "olimex-hx8k-pmod:PinSocket_2x06_P2.54mm_Horizontal" H 7575 4125 50  0001 C CNN
 F 3 "~" H 7575 4125 50  0001 C CNN
 	1    7575 4125
 	1    0    0    -1  
@@ -692,17 +692,17 @@ Wire Wire Line
 	7375 4225 6975 4225
 Text Label 6975 3925 0    50   ~ 0
 PMOD3_1
-Text Label 6975 4025 0    50   ~ 0
-PMOD3_2
-Text Label 6975 4125 0    50   ~ 0
-PMOD3_3
-Text Label 6975 4225 0    50   ~ 0
-PMOD3_4
-Text Label 8275 4125 2    50   ~ 0
-PMOD3_7
-Text Label 8275 4025 2    50   ~ 0
-PMOD3_6
 Text Label 8275 3925 2    50   ~ 0
+PMOD3_2
+Text Label 6975 4025 0    50   ~ 0
+PMOD3_3
+Text Label 8275 4025 2    50   ~ 0
+PMOD3_4
+Text Label 6975 4225 0    50   ~ 0
+PMOD3_7
+Text Label 8275 4125 2    50   ~ 0
+PMOD3_6
+Text Label 6975 4125 0    50   ~ 0
 PMOD3_5
 Wire Wire Line
 	7875 3925 8275 3925
@@ -730,7 +730,7 @@ U 1 1 5D6F2FDA
 P 7175 4425
 F 0 "C4" V 7275 4375 50  0000 L CNN
 F 1 "10n" V 7350 4350 50  0000 L CNN
-F 2 "" H 7175 4425 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7175 4425 50  0001 C CNN
 F 3 "~" H 7175 4425 50  0001 C CNN
 	1    7175 4425
 	0    1    1    0   
